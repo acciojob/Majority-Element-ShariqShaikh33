@@ -1,5 +1,5 @@
 //your code here
-function findMajority(arr){
+function majorElement(arr){
 	let half = Math.floor(arr.length/2);
 	for(let i=0;i<arr.length;i++){
 		let count = 0;
@@ -16,4 +16,4 @@ function findMajority(arr){
 }
 // console.log(body); 
 let arr = [1,2,2,1,2];
-findMajority(arr);
+majorElement(arr);
